@@ -47,7 +47,7 @@
 - 在自定义 MCP 服务器模块，单击 "添加服务器" 按钮，在弹出框中点击 “添加自定义服务器”  
 - 名称可自定义
 - URL: https://mcp.yiqicha.com/sse
-- HTTP Header: 使用您在亿企查API开放平台(https://openapi.yiqicha.com/)配置的API秘钥
+- HTTP Header: 使用您在[亿企查API开放平台](https://openapi.yiqicha.com/)配置的API秘钥
 <img width="624" height="434" alt="企业微信截图_17568656036739" src="https://github.com/user-attachments/assets/51e7ae82-1354-4385-a0f1-c34b28bd3d14" />
 
 ## Chatbox使用示例

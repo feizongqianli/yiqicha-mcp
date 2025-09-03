@@ -59,6 +59,7 @@
 - 名称可自定义
 - URL: https://mcp.yiqicha.com/sse
 - HTTP Header: 使用您在亿企查API开放平台(https://openapi.yiqicha.com/)配置的API秘钥
+<img width="624" height="434" alt="企业微信截图_17568656036739" src="https://github.com/user-attachments/assets/51e7ae82-1354-4385-a0f1-c34b28bd3d14" />
 
 ## Chatbox使用示例
 1. 查询企业，企业名称包含合肥科技公司

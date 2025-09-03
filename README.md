@@ -5,20 +5,9 @@
 - SSE版：部署于云端 https://mcp.yiqicha.com/sse
  
 ## 工具
-- `高级搜索`:通过行业、地区、关键词等获取企业列表，企业列表包括企业名称、类型、成立日期、经营状态、统一社会信用代码等详细信息
+- `高级搜索`:通过查询关键词获取企业列表，企业列表包括企业名称、类型、成立日期、经营状态、统一社会信用代码等详细信息
   - 参数:
       - `keyword` * (string): 关键词（如企业名、统一社会信用代码、法定代表人、电话等）
-      - `canbaoFrom` (integer): 参保人数起(请输入数值，例如:20)
-      - `canbaoTo` (integer): 参保人数止(请输入数值，例如:200)
-      - `capiFrom` (integer): 注册资本起(请输入数值，例如:100)
-      - `capiTo` (integer): 注册资本止(请输入数值，例如:1000)
-      - `citycode` (string): 城市-行政编码
-      - `dateFrom` (string): 成立日期起（YYYY-mm-dd）
-      - `dateTo` (string): 成立日期止（YYYY-mm-dd）
-      - `entTypeDesc` (string): integer组织类型
-      - `industryCode` (string): 行业码
-      - `provinceCode` (string): 省份-字母缩写代码
-      - `status` (string): 企业状态，多个使用英文逗号分隔，1.存续 2.吊销 3.注销 4.迁出 8.歇业 9其他
 
 - `企业照面`:根据企业名称或统一信用代码获取企业工商照面信息，包括企业法定代表人、注册资本、统一社会信用代码、经营范围等信息
   - 参数:

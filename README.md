@@ -47,7 +47,7 @@
 - 在自定义 MCP 服务器模块，单击 "添加服务器" 按钮，在弹出框中点击 “添加自定义服务器”  
 - 名称：可自定义
 - 类型：选择 远程 (http/sse)
-- URL: https://mcp.yiqicha.com/sse
+- URL: https://openapi.yiqicha.com/mcp/sse
 - HTTP Header: 使用您在[亿企查API开放平台](https://openapi.yiqicha.com/)配置的API秘钥
 <img width="627" height="437" alt="image" src="https://github.com/user-attachments/assets/83365d40-737e-4028-892e-8ad1a4477516" />
 

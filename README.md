@@ -2,7 +2,7 @@
 一站式解锁企业大数据全维度洞察！精准查询市场主体数据、工商照面详情，深挖股东与对主要人员，精准定位疑似实控人及受益所有人。一键扫描企业风险，招投标、专利信息尽在掌握，还能依企业或人名秒寻关联企业信息，为企业决策、合作把关，赋能商业每一步。
 
 企业查询MCP,目前仅支持SSE版
-- SSE版：部署于云端 https://mcp.yiqicha.com/sse
+- SSE版：部署于云端  https://openapi.yiqicha.com/mcp/sse
  
 ## 工具
 - `高级搜索`:通过查询关键词获取企业列表，企业列表包括企业名称、类型、成立日期、经营状态、统一社会信用代码等详细信息
@@ -49,7 +49,8 @@
 - 类型：选择 远程 (http/sse)
 - URL: https://mcp.yiqicha.com/sse
 - HTTP Header: 使用您在[亿企查API开放平台](https://openapi.yiqicha.com/)配置的API秘钥
-<img width="624" height="434" alt="企业微信截图_17568656036739" src="https://github.com/user-attachments/assets/51e7ae82-1354-4385-a0f1-c34b28bd3d14" />
+<img width="627" height="437" alt="image" src="https://github.com/user-attachments/assets/83365d40-737e-4028-892e-8ad1a4477516" />
+
 
 ## Chatbox使用示例
 1. 查询企业，企业名称包含合肥科技公司

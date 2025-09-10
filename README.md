@@ -49,7 +49,8 @@
 - 类型：选择 远程 (http/sse)
 - URL: https://openapi.yiqicha.com/mcp/sse
 - HTTP Header: 使用您在[亿企查API开放平台](https://openapi.yiqicha.com/)配置的API秘钥
-<img width="627" height="437" alt="image" src="https://github.com/user-attachments/assets/83365d40-737e-4028-892e-8ad1a4477516" />
+<img width="609" height="418" alt="image" src="https://github.com/user-attachments/assets/391ff448-bf6b-4aa6-82c7-cc5286e4c03f" />
+
 
 
 ## Chatbox使用示例

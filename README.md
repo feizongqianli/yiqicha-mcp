@@ -1,8 +1,8 @@
 # 亿企查询MCP
 一站式解锁企业大数据全维度洞察！精准查询市场主体数据、工商照面详情，深挖股东与对主要人员，精准定位疑似实控人及受益所有人。一键扫描企业风险，招投标、专利信息尽在掌握，还能依企业或人名秒寻关联企业信息，为企业决策、合作把关，赋能商业每一步。
 
-企业查询MCP,目前仅支持SSE版
-- SSE版：部署于云端  https://openapi.yiqicha.com/mcp-server/sse
+企业查询MCP,目前支持stateless版
+- stateless版：部署于云端  https://openapi.yiqicha.com/gateway/mcp
  
 ## 工具
 - `高级搜索`:通过查询关键词获取企业列表，企业列表包括企业名称、类型、成立日期、经营状态、统一社会信用代码等详细信息
@@ -39,21 +39,29 @@
       - `keyword` * (string): 企业全称/企业注册号/企业信用代码
 
 ## 可适配平台
-所有支持mcp client的平台和模型
+所有支持stateless的mcp client平台和模型
 
 ## 安装部署
-### SSE版安装部署示例
-- 在Chatbox setting中打开MCP窗口
-- 在自定义 MCP 服务器模块，单击 "添加服务器" 按钮，在弹出框中点击 “添加自定义服务器”  
-- 名称：可自定义
-- 类型：选择 远程 (http/sse)
-- URL: https://openapi.yiqicha.com/mcp-server/sse
-- HTTP Header: 使用您在[亿企查API开放平台](https://openapi.yiqicha.com/)配置的API秘钥
-<img width="609" height="418" alt="image" src="https://github.com/user-attachments/assets/391ff448-bf6b-4aa6-82c7-cc5286e4c03f" />
+### stateless版安装部署示例
+- 在trae中打开MCP窗口
+- 手动添加json格式配置
+- url: https://openapi.yiqicha.com/gateway/mcp
+- HTTP Header: 使用您在[亿企查API开放平台](https://openapi.yiqicha.com/)配置的API秘钥，注意拼接格式为 appKey:secretKey
+```json
+{
+  "mcpServers": {
+    "yiqicha-mcp": {
+      "url": "https://openapi.yiqicha.com/gateway/mcp",
+      "headers": {
+        "yqc-mcp-api-key": "appKey:secretKey"
+      }
+    }
+  }
+}
+```
 
 
-
-## Chatbox使用示例
+## 使用示例
 1. 查询企业，企业名称包含合肥科技公司
 2. 查询亿企查科技有限公司的基本信息
 3. 查一下亿企查科技有限公司有哪些股东
